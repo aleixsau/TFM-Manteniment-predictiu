@@ -146,14 +146,14 @@ converter = tf.lite.TFLiteConverter.from_keras_model(autoencoder)
 tflite_model = converter.convert()
 
 # Guardar el model convertit com a fitxer .tflite
-with open('autoencoder_modeld.tflite', 'wb') as f:
+with open('autoencoder_model.tflite', 'wb') as f:
     f.write(tflite_model)
 # Quantitzar el model a format enter (int8) per fer-lo més eficient
 converter.optimizations = [tf.lite.Optimize.DEFAULT]
 tflite_quantized_model = converter.convert()
 
 # Guardar el model quantitzat
-with open('autoencoder_model_quantizedd.tflite', 'wb') as f:
+with open('autoencoder_model_quantized.tflite', 'wb') as f:
     f.write(tflite_quantized_model)
 
 import pickle
