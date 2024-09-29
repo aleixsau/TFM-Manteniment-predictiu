@@ -1,6 +1,6 @@
 # TFM-Manteniment-predictiu
 
-En aquest repositori, es poden trobar tots els codis i datasets utilitzats per al treball de final de màster.
+En aquest repositori, es poden trobar tots els codis i datasets utilitzats per al treball de final de màster, Manteniment predictiu: Dispositiu IoT per a la detecció d’anomalies amb edge AI.
 
 tfm_datalog.py: Aquest codi s'ha utilitzat per a la presa de dades a partir dels sensors.
 
